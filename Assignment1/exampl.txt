@@ -1,0 +1,6 @@
+a = 2
+a = b + c * d - 5
+x = d * a
+b = a + c * d + x
+x = a / b  
+y = z + x

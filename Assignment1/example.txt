@@ -1,0 +1,10 @@
+r = p
+p = 2 * a * c
+q = 4 * p
+r = b * b
+s = r - q 
+t = u - w
+u = t + 6
+v = 2 * a
+w = t / v
+a = u / v

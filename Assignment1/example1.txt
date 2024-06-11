@@ -1,0 +1,12 @@
+# expressions = [
+#     "a = b + c",       # No dependencies
+#     "d = a + e",       # RAW: Read 'a' after Write
+#     "f = a - g",       # RAW: Read 'a' after Write
+#     "a = h * i",       # WAW: Write 'a' after Write
+#     "j = a / k",       # RAW: Read 'a' after Write
+#     "l = m * a",       # WAR: Write 'a' after Read
+#     "n = a + o",       # WAR: Write 'a' after Read
+#     "p = q / a",       # WAW: Write 'a' after Write
+#     "a = r + s",       # WAW: Write 'a' after Write
+#     "t = a * u",       # RAW: Read 'a' after Write
+# ]
